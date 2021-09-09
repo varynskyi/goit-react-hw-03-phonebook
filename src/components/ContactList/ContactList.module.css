@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 100px;
+  background: tomato;
+  margin: 5px 20px;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+}
